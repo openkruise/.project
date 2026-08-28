@@ -1,0 +1,73 @@
+# .project metadata for OpenKruise
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "openkruise"
+name: "OpenKruise"
+description: "Automate application management on Kubernetes"
+type: "project"
+project_lead: "Fei-Guo" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#openkruise"
+#     primary: true
+
+maturity_log:
+  - phase: "incubating"
+    date: "2020-11-10T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/767" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/openkruise/kruise"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://openkruise.io/"
+
+artwork: "https://landscape.cncf.io/logos/OpenKruise.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/openkruise/kruise/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "openkruise/kruise"
+
+
+security:
+  policy:
+    path: "https://github.com/openkruise/kruise/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/openkruise/kruise/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/openkruise/kruise/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/openkruise/kruise/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/openkruise/kruise/blob/master/LICENSE.md"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/openkruise/kruise/blob/master/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Continuous Integration & Delivery"
+
+# CLOMonitor Score: 84/100
+# Documentation: 90 | License: 75 | Best Practices: 95 | Security: 73
